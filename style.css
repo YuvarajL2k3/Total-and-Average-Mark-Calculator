@@ -1,0 +1,185 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    user-select:none ;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url("./img/OIP.jpeg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.con{
+    max-width: 600px;
+    background-color: rgb(240, 248, 255,0.4);
+    padding: 30px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow:  0 0 20px white;
+}
+.head{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color:aquamarine;
+    margin-bottom: 30px;
+}
+.head h1{
+    text-shadow: 0 0 5px black;
+}
+.content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content table label,input{
+     font-size: 25px;
+
+}
+.content table input{
+    width: 150px;
+    outline: none;
+    border: none;
+    border-radius:5px;
+    padding: 0 10px;
+}
+.content table input:focus{
+    cursor: pointer;
+    border: 1px solid greenyellow;
+    background-color:rgb(32, 188, 32,0.3);
+    color: white;
+
+}
+.content table label{
+    color:orangered;
+    text-shadow: 0 0 1px black;
+}
+
+button{
+    width: 100%;
+    padding:5px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+button{
+    margin: 20px 0px 10px ;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: all 1s;
+}
+.button #result1,#result2{
+    font-size: 20px;
+    margin: 10px 20px 0px;
+}
+
+@media all and (max-width:400px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        user-select: none;
+    }
+    
+    body{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background:url('./img/mobile.jpeg') ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .con{
+        max-width: 350px;
+        background-color: rgb(240, 248, 255,0.7);
+        padding:20px;
+        border: none;
+        outline: none;
+        border-radius: 40px;
+        box-shadow:  0 0 20px white;
+    }
+    .head{
+        width: 100%;
+        text-align: center;
+        text-transform: uppercase;
+        color:aquamarine;
+        margin-bottom: 30px;
+    }
+    .head h1{
+        text-shadow: 0 0 5px black;
+    }
+    .content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content table label,input{
+         font-size: 20px;
+    
+    }
+    .content table input{
+        width: 150px;
+        outline: none;
+        border: none;
+        border-radius:5px;
+        padding: 0 10px;
+    }
+    .content table input:focus{
+        cursor: pointer;
+        border: 1px solid greenyellow;
+        background-color:rgb(32, 188, 32,0.3);
+        color: white;
+    
+    }
+    .content table label{
+        color:orangered;
+        text-shadow: 0 0 1px black;
+    }
+    
+    button{
+        width: 100%;
+        padding:5px 10px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    button{
+        margin: 20px 0px 10px ;
+    }
+    
+    button:hover{
+        cursor: pointer;
+        background-color: black;
+        color: white;
+        transition: all 1s;
+    }
+    .button #result1,#result2{
+        font-size: 18px;
+        margin: 10px 20px 0px;
+    }
+}
